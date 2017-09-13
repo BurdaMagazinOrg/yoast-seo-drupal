@@ -1,0 +1,27 @@
+@import "./node_modules/sassdash/index";
+@import "./node_modules/yoastseo/css/snippet-editor";
+@import "./node_modules/yoastseo/css/colors";
+@import "./node_modules/yoastseo/css/analysis";
+@import "./node_modules/yoastseo/css/loading-dialog";
+@import "./node_modules/yoastseo/css/tooltips";
+
+
+/* Snippet Editor overrides */
+.snippet-editor__button,
+.snippet-editor__heading,
+.snippet-editor__view-toggle,
+.snippet-editor__preview .screen-reader-text {
+  display: none;
+}
+
+.snippet-editor__container {
+  cursor: default;
+
+  &:hover {
+    cursor: default;
+
+    &:before {
+      background-image: none;
+    }
+  }
+}

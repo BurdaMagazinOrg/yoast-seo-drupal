@@ -1,0 +1,21 @@
+{
+  "name": "yoast-seo-drupal",
+  "description": "Build YoastSEO.js library standalone for the yoast_seo_preview drupal module.",
+  "version": "1.0.0",
+  "main": [
+    "yoast-seo-drupal.js",
+    "yoast-seo-drupal.scss"
+  ],
+  "authors": [
+    "Volker Killesreiter <killesre@gmail.com>"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/BurdaMagazinOrg/yoast-seo-drupal",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
